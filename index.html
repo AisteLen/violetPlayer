@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="player">
+    <h1 class="text-center">Violet Player</h1>
+    <audio id="song1" loop>
+        <source src="So%20Good%20-%20Bang%20Bang%20feat.%20Ed%20Mills%20%5BSoul%5D.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="song2" loop>
+        <source src="U.D.O.%20-%20I%20Give%20As%20Good%20As%20I%20Get%20(2011)%20%20Official%20Music%20Video%20%20AFM%20Records.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="song3" loop>
+        <source src="Anthony%20Hamilton%20&%20Elayna%20Boynton%20-%20Freedom.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="songName">
+        <div class="d-flex a-center j-center" id="name1">So Good - Bang Bang feat. Ed Mills</div>
+        <div class="d-none a-center j-center" id="name2">U.D.O. - I Give As Good As I Get</div>
+        <div class="d-none a-center j-center" id="name3">Anthony Hamilton & Elayna Boynton - Freedom</div>
+    </div>
+    <button id="playMusic">Play</button>
+    <button id="pauseMusic">Pause</button>
+    <button id="nextSong">Next song</button>
+</div>
+
+
+
+
+
+</body>
+</html>
